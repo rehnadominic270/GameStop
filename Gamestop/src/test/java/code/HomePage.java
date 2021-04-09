@@ -40,6 +40,7 @@ public class HomePage {
 		
 		search.click();
 		search.sendKeys(value,Keys.ENTER);
+		
 		 text=searchResults.getText();
 		 System.out.println(text);
 		driver.navigate().back();
